@@ -1,0 +1,83 @@
+@font-face {
+    src: url("verdana.ttf");
+    font-family: verdana;
+}
+@font-face{
+    src: url("CursedTimerUlil-Aznm.ttf");
+    font-family: curse;
+}
+body {
+    background: #075985;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+#txt{
+    font-family: verdana;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #EEEEEE;
+    margin: 20px;
+
+}
+#score{
+    color: #F94F6D;
+    font-family: curse;
+    font-size: 90px;
+    background-color: #080001;
+    margin: 20px;
+    padding-top: 20px;
+    padding-right: 30px;
+    width: 155px;
+    height: 120px;
+    border-radius: 5px;
+}
+.con{
+    text-align: center;
+}
+.txt1{
+    font-family: verdana;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #EEEEEE;
+    margin: 20px;
+}
+.con2{
+    text-align: center;
+}
+#score1{
+     background-color: #080001;
+     font-family: curse;
+    color: #F94F6D;
+    font-size: 90px;
+    margin: 20px;
+    width: 155px;
+    height: 120px;
+    border-radius: 5px;
+    padding-top: 20px;
+}
+#btn{
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    background-color: #075985;
+    margin-left: 8px;
+    border-radius: 4px;
+   font-family: curse;
+}
+#btn1{
+     text-align: center;
+    padding: 10px;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    background-color: #075985;
+    margin-left: 7px;
+    border-radius: 4px;
+   font-family: curse;
+}
